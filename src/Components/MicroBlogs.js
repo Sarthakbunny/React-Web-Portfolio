@@ -2,7 +2,7 @@ import React from 'react'
 
 function MicroBlogs() {
   return (
-    <div>MicroBlogs</div>
+    <div id="micro-blog">MicroBlogs</div>
   )
 }
 
