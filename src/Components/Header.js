@@ -13,7 +13,7 @@ function Header() {
             case 'projects':
                 setActiveIndex(1);
                 break;
-            case 'contact-me':
+            case 'contact':
                 setActiveIndex(2);
                 break;
             case 'blogs':
@@ -26,15 +26,15 @@ function Header() {
     }, [])
     
     return (
-        <Navbar bg="dark" expand="lg" variant='dark'>
+        <Navbar bg="light" expand="lg" variant='light'>
             <Container>
-                <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
+                <Navbar.Brand href="/" style={{fontSize: 30}}>Sarthak Srivastava</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link active={activeIndex === 0} href="/">About</Nav.Link>
                         <Nav.Link active={activeIndex === 1} href="/projects">Projects</Nav.Link>
-                        <Nav.Link active={activeIndex === 2} href="/contact-me">Contact-Me</Nav.Link>
+                        <Nav.Link active={activeIndex === 2} href="/contact">Contact</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link active={activeIndex === 3} href="/blogs">Blogs</Nav.Link>

@@ -14,10 +14,11 @@ function App() {
       <Routes>
         <Route exact path="/blogs" element={<MicroBlogs />} />
         <Route exact path="/projects" element={<Projects />} />
-        <Route exact path="/contact-me" element={<Contact />} />
+        <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/" element={<About />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <hr className="my-4" />
       <Footer />
     </div>
   );
