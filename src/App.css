@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+.project-tile{
+  padding: 10px;
+}
+
+.form-group, .row {
+  padding: 10px;
+}
+
+.button-group {
+  text-align: left;
+}
+
+.btn {
+  margin: 5px;
+}

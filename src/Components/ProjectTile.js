@@ -3,7 +3,7 @@ import {Card, Button} from 'react-bootstrap';
 
 function ProjectTile({ src, alt, text, link }) {
     return (
-        <div className='col col-md-6 col-lg-4'>
+        <div className='project-tile col col-md-6 col-lg-4'>
                 <Card style={{ width: '25rem' }}>
                     <Card.Img variant="top" src={`${src} cap`} height={300} width={150} />
                     <Card.Body>
