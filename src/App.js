@@ -6,6 +6,7 @@ import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import About from './Components/About';
 import Footer from './Components/Footer';
+import Journey from './Components/Journey';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/blogs" element={<MicroBlogs />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/journey" element={<Journey />} />
         <Route exact path="/" element={<About />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>

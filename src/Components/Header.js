@@ -17,6 +17,9 @@ function Header() {
                 setActiveIndex(2);
                 break;
             case 'blogs':
+                setActiveIndex(4);
+                break;
+            case 'journey':
                 setActiveIndex(3);
                 break;
             default:
@@ -35,9 +38,10 @@ function Header() {
                         <Nav.Link active={activeIndex === 0} href="/">About</Nav.Link>
                         <Nav.Link active={activeIndex === 1} href="/projects">Projects</Nav.Link>
                         <Nav.Link active={activeIndex === 2} href="/contact">Contact</Nav.Link>
+                        <Nav.Link active={activeIndex === 3} href="/journey">Journey</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link active={activeIndex === 3} href="/blogs">Blogs</Nav.Link>
+                        <Nav.Link active={activeIndex === 4} href="/blogs">Blogs</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
