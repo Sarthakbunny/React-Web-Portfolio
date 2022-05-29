@@ -1,9 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import CollegeIcon from '../images/collegeicon.png';
 import SchoolIcon from '../images/schoolicon.png';
-import JobIcon from '../images/jobicon.png';
 import StartIcon from '../images/starticon.png';
 import ZyngaIcon from '../images/zynga.png'
 import NagarroIcon from '../images/nagarro.jpeg';
@@ -44,75 +42,72 @@ function Journey() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-          date="2011 - present"
+          date="Oct 2021 - present"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<Icon src={ZyngaIcon} />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">Software Engineer 1</h3>
+          <h4 className="vertical-timeline-element-subtitle">Zynga, Bangalore</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            Tech Stack: Unity, C#, Jenkins, JIRA, Design
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
+          date="Oct 2020 - Oct 2021"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<Icon src={NagarroIcon} />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+          <h3 className="vertical-timeline-element-title">Associate Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Nagarro, Gurugram</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+            Tech Stack: NodeJS, ReactJS, Express, System Design, Microservices, MongoDB
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          date="Jun 2020 -  August 2020"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<Icon src={BrandieIcon} />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
+          <h3 className="vertical-timeline-element-title">Software Engineer</h3>
+          <h4 className="vertical-timeline-element-subtitle">Brandie, Remote</h4>
           <p>
-            User Experience, Visual Design
+            Tech Stack: NodeJS, Express, PostgreSQL
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2006 - 2008"
+          date="June 2019 - Aug 2019"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
           icon={<Icon src={NccuIcon} />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
-          <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+          <h3 className="vertical-timeline-element-title">Research Intern</h3>
+          <h4 className="vertical-timeline-element-subtitle">NCCU, Chiayi, Taiwan</h4>
           <p>
-            User Experience, Visual Design
+            Tech Stack: Face Recognition, Python, HOGG, Machine Learning
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="April 2013"
+          date="Aug 2016 - 2020"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<Icon src={IITIcon} />}
         >
-          <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-          <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+          <h3 className="vertical-timeline-element-title">Bachelor's in Technology</h3>
+          <h4 className="vertical-timeline-element-subtitle">IIT Ropar, Rupnagar, Punjab</h4>
           <p>
-            Strategy, Social Media
+            Courses: C, Data Structure and Algorithm, Probability, Applied Machine Learning
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="November 2012"
+          date="2016"
           iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
           icon={<Icon src={SchoolIcon} />}
         >
-          <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-          <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-          <p>
-            Creative Direction, User Experience, Visual Design
-          </p>
+          <h3 className="vertical-timeline-element-title">High School</h3>
+          <h4 className="vertical-timeline-element-subtitle">Lucknow Public School, Sec D</h4>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
